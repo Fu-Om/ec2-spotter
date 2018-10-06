@@ -74,7 +74,8 @@ export region=`aws configure get region`
 # Ubuntu-xenial-16.04 in diff regions.
 # Ubuntu 16.04.1 LTS
 if [ $region = "us-west-2" ]; then 
-	export ami=ami-7c803d1c # Oregon
+	#export ami=ami-7c803d1c # Oregon
+	export ami=ami-0b43cec40e1390f34 # Latest Oregon Amazon Deep learning AMI 
 elif [ $region = "eu-west-1" ]; then 
 	export ami=ami-d8f4deab # Ireland
 elif [ $region = "us-east-1" ]; then
