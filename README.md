@@ -7,3 +7,5 @@ This script enables you to continue with your Spot instance where you left off.
 
 Refer to this medium post for information on how to use this:
 https://medium.com/slavv/learning-machine-learning-on-the-cheap-persistent-aws-spot-instances-668e7294b6d8
+
+Forked from https://github.com/slavivanov/ec2-spotter.
