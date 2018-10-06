@@ -1,6 +1,6 @@
 # Parameters defaults
 # The size of the root volume, in GB.
-volume_size=128
+volume_size=512
 # The name of the key file we'll use to log into the instance. create_vpc.sh sets it to aws-key-fast-ai
 name=fast-ai
 key_name=aws-key-$name
@@ -10,7 +10,7 @@ ec2spotter_instance_type=p2.xlarge
 bid_price=0.5
 
 # Read the input args
-while [[ $# -gt 0 ]]
+while [ $# -gt 0 ]
 do
 key="$1"
 case $key in
